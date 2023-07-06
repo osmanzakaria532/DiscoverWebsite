@@ -1,0 +1,22 @@
+// Culture Part css
+
+.culture {
+    padding: 295px 0 0 0 !important;
+    
+    .container {
+        flex-direction: row-reverse;
+        
+        .ab_content {
+            .ab_text {
+                h2 {
+                    width: 100% !important;
+                }
+            }
+        }
+        .ab_img {
+            width: 50%;
+            margin-left: 24px;
+            margin-right: 0 !important;
+        }
+    }
+}

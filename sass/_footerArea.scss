@@ -1,0 +1,127 @@
+// Footer Part Css
+
+#footer {
+    background-color: $black;
+    padding: 200px 0 30px;
+
+    .container {
+        .footer_content {
+            display: flex;
+
+            .left_footer {
+                width: 50%;
+
+                h2 {
+                    width: 60%;
+                    padding: 82px 0 50px;
+                    color: $white;
+                    font-family: $primary-font;
+                    font-size: 36px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: -0.3px;
+                    text-transform: capitalize;
+                }
+                a {
+                    color: $white;
+                    font-family: $primary-font;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: -0.205px;
+                    text-transform: capitalize;
+                    margin-bottom: 35px;
+                }
+                .icon {
+                    i {
+                        font-size: 18px;
+                        margin-right: 20px;
+                    }
+                }
+            }
+            .right_footer {
+                width: 50%;
+
+                .right_top_footer {
+                    width: 100%;
+                    text-align: right;
+                    padding-bottom: 72px;
+
+                    a {
+                        color: $white;
+                        font-family: $primary-font;
+                        font-size: 22px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        letter-spacing: -0.3px;
+                        text-transform: capitalize;
+                    }
+
+                    .bottom {
+                        background-color: $NeonCarrot;
+                        padding: 12px 60px;
+                        margin-left: 10px;
+                        @include br_radius();
+                        color: $black;
+                        font-family: $primary-font;
+                        font-size: 17px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        text-transform: capitalize;
+                    }
+                }
+
+                .right_footer_menu {
+                    .footer_menu {
+                        ul {
+                            float: left;
+                            width: 4 / 12 * 100%;
+
+                            h6 {
+                                color: $Maize;
+                                font-family: $primary-font;
+                                font-size: 20px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: -0.232px;
+                                text-transform: capitalize;
+                                padding-bottom: 12px;
+                            }
+
+                            li {
+                                a {
+                                    color: $white;
+                                    font-family: $primary-font;
+                                    font-size: 19px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;
+                                    letter-spacing: -0.205px;
+                                    text-transform: capitalize;
+                                    margin-bottom: 9px;
+                                }
+                            }
+                        } 
+                    }
+                }
+            }
+        }
+        .bottom_footer {
+            padding-top: 154px;
+            p {
+                color: $Granite;
+                text-align: center;
+                font-family: Open Sans;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 32px;
+            }
+        }
+    }
+}

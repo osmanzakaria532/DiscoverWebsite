@@ -1,0 +1,41 @@
+// navbar css
+nav {
+    position: absolute;
+    width: 100%;
+    padding-top: 28px;
+    .container {
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+
+            .menu {
+                display: flex;
+                align-items: center;
+
+                ul {
+                    display: flex;
+                    column-gap: 60px;
+
+                    li {
+                        a.active {
+                            color: $black;
+                        }
+                        a {
+                            color: $white;
+                            font-size: 18px;
+                            font-family: $primary-font;
+                            font-weight: 600;
+                            text-transform: capitalize;
+                            line-height: 24px;
+                            @include transition(.4s);
+                            
+                            &:hover  {
+                                color: $black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

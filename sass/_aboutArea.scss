@@ -1,0 +1,67 @@
+// about part
+
+#about {
+    background-color: $black;
+    padding-top: 319px;
+    .container {
+        display: flex;
+
+        .ab_img {
+            width: 50%;
+            margin-right: 24px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .ab_content {
+            width: 50%;
+            display: flex;
+            align-items: center;
+
+            .ab_title {
+                color: $sand;
+                font-size: 18px;
+                font-family: $primary-font;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 6px;
+                text-transform: uppercase;
+            }
+            h2 {
+                color: $white;
+                font-size: 64px;
+                font-family: $primary-font;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                text-transform: uppercase;
+                margin: 13px 0;
+                width: 80%;
+            }
+            .ab_details {
+                color: $white;
+                font-size: 14px;
+                font-family: $primary-font;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 32px;
+                text-transform: uppercase;
+            }
+
+            a {
+                color: $sand;
+                font-size: 18px;
+                font-family: $primary-font;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                text-transform: uppercase;
+                margin-top: 66px;
+            }
+
+        }
+    }
+}

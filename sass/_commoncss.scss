@@ -1,0 +1,37 @@
+$primary-font: 'Open Sans', sans-serif;
+
+$white: #ffffff;
+$sand: #FFC178;
+$black: #000000;
+$NeonCarrot: #FFA343;
+$Maize: #FFD1A0;
+$Granite: #808080;
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: $white;
+}
+
+img {
+    display: block;
+}
